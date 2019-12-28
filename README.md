@@ -45,3 +45,10 @@ characters in length.
 9. \quit = Exits out of the client.
 
 All other input is interpreted as a message being sent to the room the user is currently in.
+
+To run **server**:
+
+``server -p <number>``
+
+-p <Number> = The port that the server will listen on. Represented as a base-10 integer.
+Must be specified.
